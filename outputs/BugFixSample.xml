@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lineMappings>
+  <matchedLine 
+      oldLine="1" 
+      newLine="1" 
+      contentOld="public void foo() {" 
+      contentNew="public void foo()" />
+
+  <matchedLine 
+      oldLine="2" 
+      newLine="2" 
+      contentOld="// print report" 
+      contentNew="// print out report" />
+
+  <matchedLine 
+      oldLine="3" 
+      newLine="3" 
+      contentOld="if (report == null)" 
+      contentNew="if (report != null)" 
+      bugRelated="true" />
+
+  <matchedLine 
+      oldLine="4" 
+      newLine="4" 
+      contentOld="{" 
+      contentNew="{" />
+
+  <matchedLine 
+      oldLine="5" 
+      newLine="5" 
+      contentOld="println(report);" 
+      contentNew="println(report);" />
+
+  <matchedLine 
+      oldLine="6" 
+      newLine="6" 
+      contentOld="}" 
+      contentNew="}" />
+</lineMappings>
